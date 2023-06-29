@@ -2,7 +2,7 @@
   "name": "modified-text-input",
   "version": "1.0.0",
   "description": "Better textinput component for react native that waits for state value to change before updating whats shown on screen",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/renishishere/ModifiedTextinput#readme",
   "dependencies": {
     "react-native": "^0.72.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
   }
 }
