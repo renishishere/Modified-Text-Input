@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/renishishere/ModifiedTextinput/issues"
   },
-  "homepage": "https://github.com/renishishere/ModifiedTextinput#readme"
+  "homepage": "https://github.com/renishishere/ModifiedTextinput#readme",
+  "dependencies": {
+    "react-native": "^0.72.1"
+  }
 }
