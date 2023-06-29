@@ -1,0 +1,27 @@
+{
+  "name": "modified-text-input",
+  "version": "1.0.0",
+  "description": "Better textinput component for react native that waits for state value to change before updating whats shown on screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renishishere/ModifiedTextinput.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "keyboard",
+    "Android",
+    "Ios"
+  ],
+  "author": "renishishere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renishishere/ModifiedTextinput/issues"
+  },
+  "homepage": "https://github.com/renishishere/ModifiedTextinput#readme"
+}
