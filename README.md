@@ -6,6 +6,12 @@ Better textinput component for react native that waits for state value to change
 
 Use the component the same way you would use a normal textinput component.
 
+## Installation
+
+```sh
+npm install modified-text-input --save
+```
+
 ## Example
 
 ### With TextInput
