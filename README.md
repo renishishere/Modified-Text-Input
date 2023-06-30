@@ -1,5 +1,7 @@
 # ModifiedTextinput
 
+[![npm - modified-text-input](https://img.shields.io/badge/npm-modified--text--input-red)](https://www.npmjs.com/package/modified-text-input)
+
 Better textinput component for react native that waits for state value to change before updating whats shown on screen
 
 ## Usage
