@@ -1,7 +1,8 @@
 import * as React from "react";
 import { TextInput, TextInputProps } from "react-native";
+import { BottomSheetTextInput } from "@gorhom/bottom-sheet";
 
-export default function ModifiedTextInput(props: TextInputProps) {
+function ModifiedTextInput(props: TextInputProps & {bottomSheetTextInput: boolean}) {
   const editableRef: any = React.useRef();
 
   return (
@@ -14,7 +15,16 @@ export default function ModifiedTextInput(props: TextInputProps) {
         value={props.value}
         ref={editableRef}
       />
-      <TextInput
+      {
+        props.bottomSheetTextInput?  <BottomSheetTextInput         {...props}
+        value={props.value}
+        editable
+        onFocus={(e) => {
+          editableRef.current.focus();
+        }}
+        onBlur={(e) => {
+          e.preventDefault();
+        }}/>:       <TextInput
         {...props}
         value={props.value}
         editable
@@ -25,7 +35,9 @@ export default function ModifiedTextInput(props: TextInputProps) {
           e.preventDefault();
         }}
       />
+      }
     </>
   );
 }
 
+export default React.memo(ModifiedTextInput)
