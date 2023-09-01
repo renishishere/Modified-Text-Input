@@ -1,6 +1,6 @@
 {
   "name": "modified-text-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Better textinput component for react native that waits for state value to change before updating whats shown on screen",
   "main": "index.ts",
   "scripts": {
